@@ -37,7 +37,7 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='border-2 border-black bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='border-2 border-black bg-[#ffffff] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
                 src={dribbble}
