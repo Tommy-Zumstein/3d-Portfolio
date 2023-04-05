@@ -1,68 +1,23 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import Pdf from '../assets/resume.pdf';
 
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const initialState = "Copy Email";
+  const [buttonText, setButtonText] = useState("Copy Email");
 
-  const [loading, setLoading] = useState(false);
+  // copy button effect
+  useEffect(() => { 
+    if(buttonText !== initialState){
+      setTimeout(() => setButtonText(initialState), [1000])
+    }
+  }, [buttonText])
 
-  const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
-
-    setForm({
-      ...form,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-
-    emailjs
-      .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-        {
-          from_name: form.name,
-          to_name: "JavaScript Mastery",
-          from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
-        },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
-  };
+  const changeText = (text) => setButtonText(text);
 
   return (
     <div
@@ -75,19 +30,24 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         <div className="mt-6 flex gap-6">
-          <button
-              type='submit'
-              className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
-            >
-              {loading ? "Copied!" : "Copy Email"}
+          <button 
+            type='button'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' 
+            onClick={() =>  {
+              navigator.clipboard.writeText('tommyzums@gmail.com');
+              setButtonText("Copied!");
+            }
+            }
+          >
+            {buttonText}
           </button>
 
-          <button
-              type='submit'
+          <a
+              href={Pdf} target='_blank'
               className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
             >
-              {loading ? "Copied!" : "Resume"}
-          </button>
+              Resume
+          </a>
         </div>
       </motion.div>
     </div>
