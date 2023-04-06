@@ -137,7 +137,7 @@ import {
     },
     {
       testimonial:
-        "TODO replace this sample text!",
+        "Tommy is a dedicated professional who consistently prioritizes customer satisfaction. A true asset to our team.",
       name: "MK Smith",
       designation: "Director of Application Services",
       company: "Seattle University",
@@ -168,12 +168,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "html/css",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://dribbble.com/shots/21132089-Archidekt-Wrapped",
     },
     {
       name: "Wah Dudem World",
@@ -194,12 +194,12 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://dribbble.com/shots/21122118-Wah-Dudem-World",
     },
     {
       name: "Shane's Cards",
       description:
-        "Online storefront for a local trading card and board games store. Currently in development.",
+        "Online storefront for a local trading card and board game store. Currently in development.",
       tags: [
         {
           name: "figma",
@@ -210,12 +210,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "style-guide creation",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://dribbble.com/shots/21132116-Shane-s-Cards",
     },
   ];
   
