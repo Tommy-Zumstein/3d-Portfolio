@@ -149,7 +149,7 @@ import {
       name: "Deana Rutherford",
       designation: "Digital Organizer",
       company: "The People's Lobby",
-      image: "https://media.licdn.com/dms/image/C5603AQGqW0pBHVHOOA/profile-displayphoto-shrink_200_200/0/1517670541162?e=1685577600&v=beta&t=YwB5y5u4KA373vdguztUQkCfHV-fn6_zEoTAZnP4A18",
+      image: "https://media.licdn.com/dms/image/D4D03AQF_PhtCp321dA/profile-displayphoto-shrink_200_200/0/1681999930754?e=1688601600&v=beta&t=7AYeGFg1YdT60bh1KDaZobJqaj1keYf7DEXyddmFru8",
     },
   ];
   
