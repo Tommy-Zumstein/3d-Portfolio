@@ -34,6 +34,9 @@ import SU from "./company/SU.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mk from "./mk.jpg";
+import mb from "./mb.jpg";
+import dr from "./dr.jpg";
 
 export {
   logo,
@@ -69,4 +72,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  mk,
+  mb,
+  dr,
 };

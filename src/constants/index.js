@@ -27,6 +27,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    mk,
+    mb,
+    dr
   } from "../assets";
   
   export const navLinks = [
@@ -133,7 +136,7 @@ import {
       name: "Michael Bottomley",
       designation: "Associate Director of UX",
       company: "ASCAP",
-      image: "https://media.licdn.com/dms/image/C4E03AQEIu4aeLnxTJw/profile-displayphoto-shrink_200_200/0/1661827021099?e=1685577600&v=beta&t=MhohhieOKuHK4kn9Ggn-UGfFTTZ0oqog-iWTsOacju4",
+      image: mb,
     },
     {
       testimonial:
@@ -141,7 +144,7 @@ import {
       name: "MK Smith",
       designation: "Director of Application Services",
       company: "Seattle University",
-      image: "https://media.licdn.com/dms/image/C4E03AQF3vdF2k1LAZA/profile-displayphoto-shrink_200_200/0/1517680292285?e=1685577600&v=beta&t=OSgtP6EkxBGs47ni5UeEPeeRxPuEYGxZhaM4MAns0y8",
+      image: mk,
     },
     {
       testimonial:
@@ -149,7 +152,7 @@ import {
       name: "Deana Rutherford",
       designation: "Digital Organizer",
       company: "The People's Lobby",
-      image: "https://media.licdn.com/dms/image/D4D03AQF_PhtCp321dA/profile-displayphoto-shrink_200_200/0/1681999930754?e=1688601600&v=beta&t=7AYeGFg1YdT60bh1KDaZobJqaj1keYf7DEXyddmFru8",
+      image: dr,
     },
   ];
   
@@ -173,7 +176,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://dribbble.com/shots/21132089-Archidekt-Wrapped",
+      source_code_link: "https://dribbble.com/shots/21132089-Archidekt-Wrapped?utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Archidekt%20Wrapped&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Archidekt%20Wrapped&utm_medium=Social_Share",
     },
     {
       name: "Wah Dudem World",
@@ -194,7 +197,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://dribbble.com/shots/21122118-Wah-Dudem-World",
+      source_code_link: "https://dribbble.com/shots/21122118-Wah-Dudem-World?utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Wah%20Dudem%20World&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Wah%20Dudem%20World&utm_medium=Social_Share",
     },
     {
       name: "Shane's Cards",
@@ -215,7 +218,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://dribbble.com/shots/21132116-Shane-s-Cards",
+      source_code_link: "https://dribbble.com/shots/21132116-Shane-s-Cards?utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Shane's%20Cards&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Shane's%20Cards&utm_medium=Social_Share",
     },
   ];
   
