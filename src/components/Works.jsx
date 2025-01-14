@@ -21,7 +21,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
-          max: 45,
+          max: 20,
           scale: 1,
           speed: 450,
         }}
@@ -81,11 +81,10 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to design files. These reflect my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+          The following projects showcase my skills and experience through
+          real-world examples. Each of these projects show my process from prompt to final design. 
+          These reflect my ability to solve complex problems, 
+          work with different technologies, and manage projects effectively.
         </motion.p>
       </div>
 

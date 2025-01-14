@@ -15,7 +15,7 @@ const ServiceCard = ({ index, title, icon }) => (
     >
       <div
         options={{
-          max: 45,
+          max: 20,
           scale: 1,
           speed: 450,
         }}
@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Zealous designer with a strong background in configuring widely available applications for a diverse userbase of over 7,500 active users. Four years of experience designing interfaces, developing code, and administrating applications. 
+        Passionate UI/UX designer with extensive experience in optimizing widely used applications to enhance the experience of a diverse user base of over 7,500 active users. Four years of expertise in crafting intuitive interfaces, designing user-focused solutions, and managing application functionality to meet user needs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>

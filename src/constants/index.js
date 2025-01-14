@@ -45,7 +45,7 @@ import {
   
   const services = [
     {
-      title: "Interface Designer",
+      title: "User Interface Designer",
       icon: web,
     },
     {
@@ -100,11 +100,11 @@ import {
   
   const experiences = [
     {
-      title: "Lead Interface Designer",
-      company_name: "Wah Dudem Foundation",
+      title: "Interface Designer",
+      company_name: "Wah Dudem",
       icon: WDD,
       iconBg: "#383E56",
-      date: "2022 - Current",
+      date: "2022 - 2023",
       points: [
         "Led a team of designers to create an interactive prototype containing over 20 components for Wah Dudem World, an online safe space for suicide prevention and mental health resources",
         "Collaborated with 3 stakeholders to understand user needs and define project scope, created wireframes and user flows, and oversaw visual design and front-end development",
