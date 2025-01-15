@@ -188,11 +188,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "photoshop",
+          name: "motion design",
           color: "green-text-gradient",
         },
         {
-          name: "project management",
+          name: "high-fidelity prototype",
           color: "pink-text-gradient",
         },
       ],
@@ -200,25 +200,25 @@ import {
       source_code_link: "https://dribbble.com/shots/21122118-Wah-Dudem-World?utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Wah%20Dudem%20World&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Wah%20Dudem%20World&utm_medium=Social_Share",
     },
     {
-      name: "Shane's Cards",
+      name: "Microburst",
       description:
-        "Online storefront for a local trading card and board game store. Currently in development.",
+        "A multiplayer party game where players face off in bite-sized micro-games to see who is the last man standing. Currently in development, more to come soon!",
       tags: [
         {
           name: "figma",
           color: "blue-text-gradient",
         },
         {
-          name: "node",
+          name: "godot",
           color: "green-text-gradient",
         },
         {
-          name: "style-guide creation",
+          name: "high-fidelity prototype",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://dribbble.com/shots/21132116-Shane-s-Cards?utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Shane's%20Cards&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Shane's%20Cards&utm_medium=Social_Share",
+      source_code_link: "https://dribbble.com/shots/25481688-Microburst?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Microburst&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=tommyzumstein&utm_content=Microburst&utm_medium=Social_Share",
     },
   ];
   
