@@ -39,7 +39,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
@@ -47,7 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Passionate UI/UX designer with extensive experience in optimizing widely used applications to enhance the experience of a diverse user base of over 7,500 active users. Four years of expertise in crafting intuitive interfaces, designing user-focused solutions, and managing application functionality to meet user needs.
+      Passionate UI/UX designer with extensive experience in optimizing widely used applications to enhance the experience of a diverse user base of over 7,500 active users. Four years of expertise in crafting intuitive interfaces, designing user-focused solutions, and managing application functionality to meet user needs.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10 justify-center'>

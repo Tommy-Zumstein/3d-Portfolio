@@ -172,7 +172,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "node",
+          name: "high-fidelity prototype",
           color: "green-text-gradient",
         },
         {
