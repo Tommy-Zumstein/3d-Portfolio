@@ -172,11 +172,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "high-fidelity prototype",
+          name: "motion design",
           color: "green-text-gradient",
         },
         {
-          name: "html/css",
+          name: "high-fidelity prototype",
           color: "pink-text-gradient",
         },
       ],
@@ -193,7 +193,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "motion design",
+          name: "style-guide creation",
           color: "green-text-gradient",
         },
         {
@@ -214,7 +214,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "godot",
+          name: "game-dev",
           color: "green-text-gradient",
         },
         {

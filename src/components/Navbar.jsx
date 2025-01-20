@@ -23,8 +23,8 @@ const Navbar = () => {
               window.scrollTo(0,0);
             }}
           >
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-            
+            <img src={logo} alt="logo" className="w-9 h-12 object-contain" />
+            <b><h2 className="w-9 h-12 object-contain">Tommy Zumstein</h2></b>
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link) => (
